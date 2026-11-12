@@ -6,7 +6,8 @@ answered=false 的 correct 仅为存储占位，不参与答对率；题目版�
 
 ## 运行
 
-使用 Node.js 22.22.1 和 npm，无第三方运行依赖。
+使用 Node.js 22 LTS（>=22.22.1 且 <23）和 npm，无第三方运行依赖。
+`.nvmrc` 选择 22 主版本，清单与锁文件记录相同的兼容范围；Dockerfile 仍固定基础镜像摘要，容器构建可精确复现。
 
 ```sh
 npm ci --ignore-scripts --no-audit --no-fund --offline
