@@ -2,22 +2,22 @@
   {
     "key": "q1",
     "count": 16,
-    "sum": 12
+    "sum": 11
   },
   {
     "key": "q2",
     "count": 16,
-    "sum": 12
+    "sum": 11
   },
   {
     "key": "q3",
     "count": 16,
-    "sum": 12
+    "sum": 11
   },
   {
     "key": "q4",
     "count": 16,
-    "sum": 12
+    "sum": 11
   },
   {
     "key": "q5",
@@ -27,6 +27,6 @@
   {
     "key": "q6",
     "count": 16,
-    "sum": 12
+    "sum": 11
   }
 ]

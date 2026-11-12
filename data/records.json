@@ -122,7 +122,7 @@
       "participant": "p2",
       "item": "q2",
       "language": "zh",
-      "correct": 1,
+      "correct": 0,
       "answered": false,
       "version": "v1",
       "id": "r0013"
@@ -239,7 +239,7 @@
       "participant": "p4",
       "item": "q3",
       "language": "zh",
-      "correct": 1,
+      "correct": 0,
       "answered": false,
       "version": "v1",
       "id": "r0026"
@@ -356,7 +356,7 @@
       "participant": "p6",
       "item": "q4",
       "language": "zh",
-      "correct": 1,
+      "correct": 0,
       "answered": false,
       "version": "v1",
       "id": "r0039"
@@ -590,7 +590,7 @@
       "participant": "p10",
       "item": "q6",
       "language": "zh",
-      "correct": 1,
+      "correct": 0,
       "answered": false,
       "version": "v1",
       "id": "r0065"
@@ -707,7 +707,7 @@
       "participant": "p13",
       "item": "q1",
       "language": "en",
-      "correct": 1,
+      "correct": 0,
       "answered": false,
       "version": "v1",
       "id": "r0078"
