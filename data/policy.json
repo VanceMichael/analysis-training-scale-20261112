@@ -1,0 +1,10 @@
+{
+  "anchors": [
+    "q1",
+    "q2"
+  ],
+  "referenceLanguage": "zh",
+  "maxPurification": 2,
+  "alpha": 0.05,
+  "frozenVersion": "v1"
+}
