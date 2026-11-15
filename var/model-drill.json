@@ -1,0 +1,195 @@
+{
+  "anchors": {
+    "configured": [
+      "q1",
+      "q2"
+    ],
+    "dropped": [],
+    "final": [],
+    "removed": []
+  },
+  "diagnostics": {
+    "excludedCells": [
+      {
+        "item": "q1",
+        "language": "en",
+        "reason": "all-correct"
+      },
+      {
+        "item": "q2",
+        "language": "zh",
+        "reason": "all-correct"
+      },
+      {
+        "item": "q3",
+        "language": "en",
+        "reason": "all-correct"
+      },
+      {
+        "item": "q4",
+        "language": "zh",
+        "reason": "all-correct"
+      },
+      {
+        "item": "q5",
+        "language": "en",
+        "reason": "all-correct"
+      },
+      {
+        "item": "q6",
+        "language": "zh",
+        "reason": "all-correct"
+      }
+    ],
+    "excludedPersons": [
+      {
+        "participant": "p4",
+        "reason": "all-wrong"
+      }
+    ]
+  },
+  "dif": null,
+  "equating": {
+    "anchorCoverage": [
+      {
+        "anchor": "q1",
+        "byLanguage": {
+          "zh": 7
+        },
+        "coveredLanguages": 1
+      },
+      {
+        "anchor": "q2",
+        "byLanguage": {
+          "en": 7
+        },
+        "coveredLanguages": 1
+      }
+    ],
+    "components": [
+      {
+        "items": [
+          "q1",
+          "q3",
+          "q5"
+        ],
+        "persons": [
+          "p0",
+          "p10",
+          "p12",
+          "p14",
+          "p2",
+          "p6",
+          "p8"
+        ]
+      },
+      {
+        "items": [
+          "q2",
+          "q4",
+          "q6"
+        ],
+        "persons": [
+          "p1",
+          "p11",
+          "p13",
+          "p15",
+          "p3",
+          "p5",
+          "p7",
+          "p9"
+        ]
+      }
+    ],
+    "proceed": false,
+    "reasons": [
+      "参与者—题项图分为 2 个不连通部分",
+      "没有锚题在两种及以上语言中都有已答覆盖"
+    ],
+    "stage": "estimable",
+    "status": "disconnected"
+  },
+  "inference": "none",
+  "inputFingerprint": "6706c2a4c6ade38975b31505da6d378724a7da3830074340d1334f2338f90b81",
+  "items": {
+    "q1": {
+      "version": "v1"
+    },
+    "q2": {
+      "version": "v1"
+    },
+    "q3": {
+      "version": "v1"
+    },
+    "q4": {
+      "version": "v1"
+    },
+    "q5": {
+      "version": "v1"
+    },
+    "q6": {
+      "version": "v1"
+    }
+  },
+  "kind": "training-scale/rasch-model",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "modelVersion": 1,
+  "notes": [
+    "剔除全对/全错的极端单元格后，可估计设计不再连通或锚题失去跨语种覆盖；两个语言版本不能声称已经等值，未出具参数"
+  ],
+  "parameters": null,
+  "policy": {
+    "alpha": 0.05,
+    "anchors": [
+      "q1",
+      "q2"
+    ],
+    "frozenVersion": "v1",
+    "maxPurification": 2,
+    "referenceLanguage": "zh"
+  },
+  "policyFingerprint": "432bf03dee14b4878ec65c780b8b0b1cb7ff48bd23859872dff462828d83d97a",
+  "purification": null,
+  "reviewList": [
+    {
+      "detail": "all-correct",
+      "item": "q1",
+      "language": "en",
+      "reason": "cell-extreme"
+    },
+    {
+      "detail": "all-correct",
+      "item": "q2",
+      "language": "zh",
+      "reason": "cell-extreme"
+    },
+    {
+      "detail": "all-correct",
+      "item": "q3",
+      "language": "en",
+      "reason": "cell-extreme"
+    },
+    {
+      "detail": "all-correct",
+      "item": "q4",
+      "language": "zh",
+      "reason": "cell-extreme"
+    },
+    {
+      "detail": "all-correct",
+      "item": "q5",
+      "language": "en",
+      "reason": "cell-extreme"
+    },
+    {
+      "detail": "all-correct",
+      "item": "q6",
+      "language": "zh",
+      "reason": "cell-extreme"
+    }
+  ],
+  "usage": "本结果用于题项复核与能力描述，不构成人员淘汰或分班决定；请勿据此自动淘汰人员"
+}

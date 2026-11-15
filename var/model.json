@@ -1,0 +1,811 @@
+{
+  "anchors": {
+    "configured": [
+      "q1",
+      "q2"
+    ],
+    "dropped": [],
+    "final": [
+      "q1",
+      "q2"
+    ],
+    "removed": []
+  },
+  "diagnostics": {
+    "anchors": [
+      "q1",
+      "q2"
+    ],
+    "conditionalLogLikelihood": -347.0839885996982,
+    "constraint": "anchor-mean-zero",
+    "converged": true,
+    "estimator": "cml-items+ml-abilities",
+    "excludedCells": [],
+    "excludedPersons": [
+      {
+        "participant": "v0",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v127",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v13",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v177",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v198",
+        "reason": "all-correct"
+      },
+      {
+        "participant": "v20",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v203",
+        "reason": "all-correct"
+      },
+      {
+        "participant": "v210",
+        "reason": "all-correct"
+      },
+      {
+        "participant": "v22",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v225",
+        "reason": "all-correct"
+      },
+      {
+        "participant": "v226",
+        "reason": "all-correct"
+      },
+      {
+        "participant": "v234",
+        "reason": "all-correct"
+      },
+      {
+        "participant": "v236",
+        "reason": "all-correct"
+      },
+      {
+        "participant": "v26",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v27",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v28",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v29",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v31",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v34",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v36",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v37",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v4",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v40",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v41",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v42",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v44",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v45",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v54",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v55",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v58",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v59",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v6",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v60",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v63",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v65",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v66",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v67",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v7",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v74",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v75",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v78",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v80",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v81",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v83",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v88",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v9",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v90",
+        "reason": "all-wrong"
+      },
+      {
+        "participant": "v97",
+        "reason": "all-wrong"
+      }
+    ],
+    "iterations": 5,
+    "maxChange": 1.1528446848930967e-8,
+    "persons": 192,
+    "responses": 1093
+  },
+  "dif": {
+    "alpha": 0.05,
+    "multipleComparison": "benjamini-hochberg",
+    "referenceLanguage": "zh",
+    "tests": [
+      {
+        "ci95": [
+          0.56838533524944,
+          2.3391780255153964
+        ],
+        "delta": 1.4537816803824182,
+        "etsClass": "C",
+        "flagged": true,
+        "item": "q3",
+        "language": "en",
+        "p": 0.0012902204629412495,
+        "q": 0.005160881851764998,
+        "se": 0.45174112643547437,
+        "support": {
+          "comparison": {
+            "language": "en",
+            "n": 91,
+            "se": 0.3035700419897884
+          },
+          "reference": {
+            "language": "zh",
+            "n": 89,
+            "se": 0.2472532643827166
+          }
+        },
+        "z": 3.2181742934358954
+      },
+      {
+        "ci95": [
+          -0.8556187296727109,
+          0.7315048036485963
+        ],
+        "delta": -0.06205696301205732,
+        "etsClass": "A",
+        "flagged": false,
+        "item": "q4",
+        "language": "en",
+        "p": 0.8781851287519968,
+        "q": 0.8781851287519968,
+        "se": 0.4048858890574794,
+        "support": {
+          "comparison": {
+            "language": "en",
+            "n": 92,
+            "se": 0.24878792834342497
+          },
+          "reference": {
+            "language": "zh",
+            "n": 86,
+            "se": 0.25088876559402534
+          }
+        },
+        "z": -0.15327025388935556
+      },
+      {
+        "ci95": [
+          -1.2692280840986885,
+          0.37232652423205714
+        ],
+        "delta": -0.4484507799333157,
+        "etsClass": "B",
+        "flagged": false,
+        "item": "q5",
+        "language": "en",
+        "p": 0.2842270847965829,
+        "q": 0.5684541695931657,
+        "se": 0.4187716224202959,
+        "support": {
+          "comparison": {
+            "language": "en",
+            "n": 95,
+            "se": 0.2540557943650862
+          },
+          "reference": {
+            "language": "zh",
+            "n": 92,
+            "se": 0.25888857825104505
+          }
+        },
+        "z": -1.0708719405137548
+      },
+      {
+        "ci95": [
+          -1.0104601430018363,
+          0.7557770728369686
+        ],
+        "delta": -0.12734153508243384,
+        "etsClass": "A",
+        "flagged": false,
+        "item": "q6",
+        "language": "en",
+        "p": 0.7774701506875465,
+        "q": 0.8781851287519968,
+        "se": 0.45057899426693676,
+        "support": {
+          "comparison": {
+            "language": "en",
+            "n": 89,
+            "se": 0.2776168142030624
+          },
+          "reference": {
+            "language": "zh",
+            "n": 87,
+            "se": 0.2737412676577244
+          }
+        },
+        "z": -0.2826175580812647
+      }
+    ],
+    "untestable": []
+  },
+  "equating": {
+    "anchorCoverage": [
+      {
+        "anchor": "q1",
+        "byLanguage": {
+          "en": 112,
+          "zh": 115
+        },
+        "coveredLanguages": 2
+      },
+      {
+        "anchor": "q2",
+        "byLanguage": {
+          "en": 117,
+          "zh": 116
+        },
+        "coveredLanguages": 2
+      }
+    ],
+    "components": [
+      {
+        "items": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "persons": [
+          "v0",
+          "v1",
+          "v10",
+          "v100",
+          "v101",
+          "v102",
+          "v103",
+          "v104",
+          "v105",
+          "v106",
+          "v107",
+          "v108",
+          "v109",
+          "v11",
+          "v110",
+          "v111",
+          "v112",
+          "v113",
+          "v114",
+          "v115",
+          "v116",
+          "v117",
+          "v118",
+          "v119",
+          "v12",
+          "v120",
+          "v121",
+          "v122",
+          "v123",
+          "v124",
+          "v125",
+          "v126",
+          "v127",
+          "v128",
+          "v129",
+          "v13",
+          "v130",
+          "v131",
+          "v132",
+          "v133",
+          "v134",
+          "v135",
+          "v136",
+          "v137",
+          "v138",
+          "v139",
+          "v14",
+          "v140",
+          "v141",
+          "v142",
+          "v143",
+          "v144",
+          "v145",
+          "v146",
+          "v147",
+          "v148",
+          "v149",
+          "v15",
+          "v150",
+          "v151",
+          "v152",
+          "v153",
+          "v154",
+          "v155",
+          "v156",
+          "v157",
+          "v158",
+          "v159",
+          "v16",
+          "v160",
+          "v161",
+          "v162",
+          "v163",
+          "v164",
+          "v165",
+          "v166",
+          "v167",
+          "v168",
+          "v169",
+          "v17",
+          "v170",
+          "v171",
+          "v172",
+          "v173",
+          "v174",
+          "v175",
+          "v176",
+          "v177",
+          "v178",
+          "v179",
+          "v18",
+          "v180",
+          "v181",
+          "v182",
+          "v183",
+          "v184",
+          "v185",
+          "v186",
+          "v187",
+          "v188",
+          "v189",
+          "v19",
+          "v190",
+          "v191",
+          "v192",
+          "v193",
+          "v194",
+          "v195",
+          "v196",
+          "v197",
+          "v198",
+          "v199",
+          "v2",
+          "v20",
+          "v200",
+          "v201",
+          "v202",
+          "v203",
+          "v204",
+          "v205",
+          "v206",
+          "v207",
+          "v208",
+          "v209",
+          "v21",
+          "v210",
+          "v211",
+          "v212",
+          "v213",
+          "v214",
+          "v215",
+          "v216",
+          "v217",
+          "v218",
+          "v219",
+          "v22",
+          "v220",
+          "v221",
+          "v222",
+          "v223",
+          "v224",
+          "v225",
+          "v226",
+          "v227",
+          "v228",
+          "v229",
+          "v23",
+          "v230",
+          "v231",
+          "v232",
+          "v233",
+          "v234",
+          "v235",
+          "v236",
+          "v237",
+          "v238",
+          "v239",
+          "v24",
+          "v25",
+          "v26",
+          "v27",
+          "v28",
+          "v29",
+          "v3",
+          "v30",
+          "v31",
+          "v32",
+          "v33",
+          "v34",
+          "v35",
+          "v36",
+          "v37",
+          "v38",
+          "v39",
+          "v4",
+          "v40",
+          "v41",
+          "v42",
+          "v43",
+          "v44",
+          "v45",
+          "v46",
+          "v47",
+          "v48",
+          "v49",
+          "v5",
+          "v50",
+          "v51",
+          "v52",
+          "v53",
+          "v54",
+          "v55",
+          "v56",
+          "v57",
+          "v58",
+          "v59",
+          "v6",
+          "v60",
+          "v61",
+          "v62",
+          "v63",
+          "v64",
+          "v65",
+          "v66",
+          "v67",
+          "v68",
+          "v69",
+          "v7",
+          "v70",
+          "v71",
+          "v72",
+          "v73",
+          "v74",
+          "v75",
+          "v76",
+          "v77",
+          "v78",
+          "v79",
+          "v8",
+          "v80",
+          "v81",
+          "v82",
+          "v83",
+          "v84",
+          "v85",
+          "v86",
+          "v87",
+          "v88",
+          "v89",
+          "v9",
+          "v90",
+          "v91",
+          "v92",
+          "v93",
+          "v94",
+          "v95",
+          "v96",
+          "v97",
+          "v98",
+          "v99"
+        ]
+      }
+    ],
+    "personsWithoutResponses": [],
+    "proceed": true,
+    "status": "linked"
+  },
+  "inference": "confirmatory",
+  "inputFingerprint": "c83af10b74c026d05dd564117d6536f7eee4b48f91907fb8420e18df73977c32",
+  "items": {
+    "q1": {
+      "version": "v1"
+    },
+    "q2": {
+      "version": "v1"
+    },
+    "q3": {
+      "version": "v1"
+    },
+    "q4": {
+      "version": "v1"
+    },
+    "q5": {
+      "version": "v1"
+    },
+    "q6": {
+      "version": "v1"
+    }
+  },
+  "kind": "training-scale/rasch-model",
+  "languages": [
+    "en",
+    "zh"
+  ],
+  "modelVersion": 1,
+  "notes": [],
+  "parameters": {
+    "constraint": "anchor-mean-zero",
+    "difficulties": {
+      "q1": {
+        "kind": "anchor",
+        "n": 184,
+        "se": 0.18011204159456157,
+        "value": -0.39143774981727053
+      },
+      "q2": {
+        "kind": "anchor",
+        "n": 188,
+        "se": 0.1612998648448054,
+        "value": 0.39143774981727053
+      },
+      "q3": {
+        "byLanguage": {
+          "en": {
+            "n": 91,
+            "se": 0.3035700419897884,
+            "value": 2.7139447699635246
+          },
+          "zh": {
+            "n": 89,
+            "se": 0.2472532643827166,
+            "value": 1.2601630895811065
+          }
+        },
+        "kind": "item"
+      },
+      "q4": {
+        "byLanguage": {
+          "en": {
+            "n": 92,
+            "se": 0.24878792834342497,
+            "value": 1.018953027756267
+          },
+          "zh": {
+            "n": 86,
+            "se": 0.25088876559402534,
+            "value": 1.0810099907683244
+          }
+        },
+        "kind": "item"
+      },
+      "q5": {
+        "byLanguage": {
+          "en": {
+            "n": 95,
+            "se": 0.2540557943650862,
+            "value": 1.4960094759018754
+          },
+          "zh": {
+            "n": 92,
+            "se": 0.25888857825104505,
+            "value": 1.944460255835191
+          }
+        },
+        "kind": "item"
+      },
+      "q6": {
+        "byLanguage": {
+          "en": {
+            "n": 89,
+            "se": 0.2776168142030624,
+            "value": 2.050885668993438
+          },
+          "zh": {
+            "n": 87,
+            "se": 0.2737412676577244,
+            "value": 2.178227204075872
+          }
+        },
+        "kind": "item"
+      }
+    }
+  },
+  "policy": {
+    "alpha": 0.05,
+    "anchors": [
+      "q1",
+      "q2"
+    ],
+    "frozenVersion": "v1",
+    "maxPurification": 2,
+    "referenceLanguage": "zh"
+  },
+  "policyFingerprint": "432bf03dee14b4878ec65c780b8b0b1cb7ff48bd23859872dff462828d83d97a",
+  "purification": {
+    "finalAnchors": [
+      "q1",
+      "q2"
+    ],
+    "removed": [],
+    "rounds": [
+      {
+        "anchorsBefore": [
+          "q1",
+          "q2"
+        ],
+        "linkPool": [
+          "q1",
+          "q2",
+          "q3",
+          "q4",
+          "q5",
+          "q6"
+        ],
+        "notes": [],
+        "removed": [],
+        "round": 1,
+        "tests": [
+          {
+            "anchor": "q1",
+            "delta": -0.653339442367356,
+            "flagged": false,
+            "language": "en",
+            "p": 0.09510349248150018,
+            "q": 0.19020698496300037,
+            "se": 0.3914392412847141,
+            "z": -1.669069866943024
+          },
+          {
+            "anchor": "q2",
+            "delta": 0.3282172679023502,
+            "flagged": false,
+            "language": "en",
+            "p": 0.35210684159011163,
+            "q": 0.35210684159011163,
+            "se": 0.35272820622501344,
+            "z": 0.9305104103100075
+          }
+        ]
+      }
+    ],
+    "status": "stable"
+  },
+  "reviewList": [
+    {
+      "ci95": [
+        0.56838533524944,
+        2.3391780255153964
+      ],
+      "delta": 1.4537816803824182,
+      "etsClass": "C",
+      "item": "q3",
+      "language": "en",
+      "p": 0.0012902204629412495,
+      "q": 0.005160881851764998,
+      "reason": "dif-significant",
+      "se": 0.45174112643547437,
+      "support": {
+        "comparison": {
+          "language": "en",
+          "n": 91,
+          "se": 0.3035700419897884
+        },
+        "reference": {
+          "language": "zh",
+          "n": 89,
+          "se": 0.2472532643827166
+        }
+      }
+    }
+  ],
+  "usage": "本结果用于题项复核与能力描述，不构成人员淘汰或分班决定；请勿据此自动淘汰人员"
+}

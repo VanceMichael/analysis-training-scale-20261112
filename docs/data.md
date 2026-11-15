@@ -14,6 +14,6 @@ answered=false 的 correct 仅为存储占位，不参与答对率；题目版�
 | `answered` | `boolean` |
 | `version` | `string` |
 
-现有 `summary` 按 `item` 清点记录，`sum` 为 `correct` 的逐行核对值，不代表统计推断或跨期业务指标。分组按键排序，行按记录键稳定处理。`data/expected-summary.json` 是独立生成的现有核算对照；`data/policy.json` 保存业务配置的演练值，当前清点命令不消费分析配置。
+现有 `summary` 按 `item` 清点记录，`sum` 为 `correct` 的逐行核对值，不代表统计推断或跨期业务指标。分组按键排序，行按记录键稳定处理。`data/expected-summary.json` 是独立生成的现有核算对照；`data/policy.json` 保存业务配置的演练值：`summary` 不消费分析配置，`analyze` 读取其中的锚题（`anchors`）、参考语言（`referenceLanguage`）、锚题净化轮次上限（`maxPurification`）、显著性水平（`alpha`）与冻结题目版本（`frozenVersion`），口径详见 `docs/rasch.md`。
 
 `inspect` 返回输入行数、字段列表与 SHA-256 指纹；指纹不依赖字段或记录排列。数据版本不支持时应直接拒绝，不做静默迁移。错误发生时命令返回非零退出码。

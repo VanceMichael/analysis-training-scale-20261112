@@ -1,0 +1,44 @@
+{
+  "count": 96,
+  "groupBy": "item",
+  "groups": [
+    {
+      "answered": 14,
+      "count": 16,
+      "key": "q1",
+      "sum": 11
+    },
+    {
+      "answered": 14,
+      "count": 16,
+      "key": "q2",
+      "sum": 11
+    },
+    {
+      "answered": 15,
+      "count": 16,
+      "key": "q3",
+      "sum": 11
+    },
+    {
+      "answered": 15,
+      "count": 16,
+      "key": "q4",
+      "sum": 11
+    },
+    {
+      "answered": 15,
+      "count": 16,
+      "key": "q5",
+      "sum": 12
+    },
+    {
+      "answered": 15,
+      "count": 16,
+      "key": "q6",
+      "sum": 11
+    }
+  ],
+  "inputFingerprint": "6706c2a4c6ade38975b31505da6d378724a7da3830074340d1334f2338f90b81",
+  "valueField": "correct"
+}

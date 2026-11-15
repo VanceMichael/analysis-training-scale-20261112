@@ -1,0 +1,64 @@
+{
+  "difficultiesFrozen": true,
+  "excludedSummary": {
+    "q1 (version-mismatch)": 1
+  },
+  "inputFingerprint": "9bebb43d1eda8f2685c10343c010db6c3fc01a094ce59e5c3abed36d501e6aff",
+  "kind": "training-scale/rasch-scores",
+  "modelFingerprint": "4c0409599cf049e40e550a34a69914ab8976e21484c8ffa229bb61ed487261d5",
+  "notes": [
+    "能力评分使用模型档案中已发布的题目难度，未重新拟合；档案不被本命令修改",
+    "缺答记录不参与评分；全对或全错的参与者能力无界，theta 记为 null 并标注"
+  ],
+  "persons": [
+    {
+      "answered": 6,
+      "excluded": [],
+      "extreme": null,
+      "language": "zh",
+      "participant": "w0",
+      "score": 3,
+      "se": 0.887726020583534,
+      "theta": 1.095581392716314
+    },
+    {
+      "answered": 6,
+      "excluded": [],
+      "extreme": "all-correct",
+      "language": "en",
+      "participant": "w1",
+      "score": 6,
+      "se": null,
+      "theta": null
+    },
+    {
+      "answered": 4,
+      "excluded": [],
+      "extreme": null,
+      "language": "zh",
+      "participant": "w2",
+      "score": 2,
+      "se": 1.107719891604803,
+      "theta": 1.3096291129974889
+    },
+    {
+      "answered": 0,
+      "excluded": [
+        {
+          "detail": "批次版本 v2，已发布版本 v1",
+          "item": "q1",
+          "reason": "version-mismatch"
+        }
+      ],
+      "extreme": null,
+      "language": "zh",
+      "participant": "w3",
+      "reason": "no-estimable-items",
+      "score": 0,
+      "se": null,
+      "theta": null
+    }
+  ],
+  "scoresVersion": 1,
+  "usage": "本结果用于题项复核与能力描述，不构成人员淘汰或分班决定；请勿据此自动淘汰人员"
+}
